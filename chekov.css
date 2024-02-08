@@ -1,0 +1,62 @@
+
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+
+.direction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: black;
+    background-color: lightyellow;
+}
+
+
+.direction:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+
+.srilakshmi {
+    color: blue;
+}
+
+
+.alexander-serebrakoff {
+    color: darkred;
+}
+
+.helena {
+    color: purple;
+}
+
+.sonia {
+    color: darkcyan;
+}
+
+.mme-voitskaya {
+    color: darkorange;
+}
+
+.ivan-voitski {
+    color: darkgreen;
+}
+
+.michael-astroff {
+    color: darkblue;
+}
+
+.ilia-telegin {
+    color: darkmagenta;
+}
+
+.marina {
+    color: darkgoldenrod;
+}
+
+.workman {
+    color: darkslategray;
+}
