@@ -60,3 +60,23 @@
 .workman {
     color: darkslategray;
 }
+.character-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.character-table th,
+.character-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.character-table th {
+    background-color: #f2f2f2;
+}
+
+.character-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
