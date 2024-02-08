@@ -84,3 +84,31 @@
     text-shadow: 2px 2px 4px #FF4500; /* Apply a shadow with an interesting color and blur */
     border: 1px solid #FF4500; /* Apply an interesting border */
 }
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.navbar img:hover {
+    transform: scale(1.1);
+}
