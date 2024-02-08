@@ -80,3 +80,7 @@
 .character-table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.character:hover {
+    text-shadow: 2px 2px 4px #FF4500; /* Apply a shadow with an interesting color and blur */
+    border: 1px solid #FF4500; /* Apply an interesting border */
+}
